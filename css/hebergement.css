@@ -1,0 +1,155 @@
+/*Hebergement à Marseille */
+#Hebergement_populaire {
+  display: flex;
+}
+#hebergement {
+  margin-top: 39px;
+  width: 65%;
+  height: 626px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+}
+
+.hebergement_row {
+  display: flex;
+  flex-direction: row;
+  padding-top: 27px;
+  padding-left: 40px;
+}
+#hebergement h2 {
+  padding-top: 42px;
+  padding-left: 40px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.hebergement1 {
+  width: 246px;
+  height: 200px;
+  background: #ffffff;
+  border-radius: 20px;
+  margin-right: 31px;
+}
+.picture_hebergement {
+  width: 246px;
+  height: 124px;
+  border: 5px solid #ffffff;
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+}
+
+.hotel_title {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 4px;
+  padding-left: 16px;
+}
+.hotel_price {
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 16px;
+  padding-top: 9px;
+}
+
+.first_star {
+  padding-left: 16px;
+  color: #0065fc;
+}
+.blue_star {
+  color: #0065fc;
+}
+.last_star {
+  color: #f2f2f2;
+}
+
+.hebergement2 {
+  width: 246px;
+  height: 200px;
+  background: #ffffff;
+  border-radius: 20px;
+  margin-right: 31px;
+}
+
+.hebergement3 {
+  width: 246px;
+  height: 200px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 1px 2px #f2f2f2da;
+}
+
+/*les plus populaires*/
+
+#populaire {
+  width: 29%;
+  height: 626px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  margin-left: 40px;
+  margin-top: 39px;
+}
+
+#populaire h2 {
+  padding-top: 41px;
+  padding-left: 31px;
+}
+
+#pop_head {
+  display: flex;
+}
+
+#populaire_column {
+  display: flex;
+  flex-direction: column;
+}
+
+#pop1 {
+  width: 330px;
+  height: 144px;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 37px;
+  margin-top: 26px;
+  display: flex;
+}
+
+.picture_populaire {
+  width: 137px;
+  height: 144px;
+  object-fit: cover;
+  border: 5px solid #ffffff;
+  border-radius: 20px 0px 0px 20px;
+}
+.title_price_star {
+  display: flex;
+  flex-direction: column;
+}
+
+.pop_title {
+  font-weight: 700;
+  font-size: 16px;
+  padding-top: 16px;
+  padding-left: 15px;
+}
+.pop_price {
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 7px;
+  padding-left: 15px;
+}
+.star_pop {
+  padding-top: 44px;
+}
+
+.pop2_3 {
+  width: 330px;
+  height: 144px;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 37px;
+  margin-top: 33px;
+  display: flex;
+}
+.star_pop3 {
+  padding-top: 63px;
+}

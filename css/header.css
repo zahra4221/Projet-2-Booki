@@ -1,0 +1,39 @@
+.intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  width: 61px;
+  height: 19px;
+  margin-top: 46px;
+}
+#header_box {
+  display: flex;
+}
+
+#shortcut {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+#shortcut:hover {
+  font-weight: 500;
+}
+
+.blue_border {
+  list-style-type: none;
+  text-align: center;
+  width: 162px;
+  padding-top: 46px;
+}
+
+.blue_border:hover {
+  border-top: 2px solid #0065fc;
+  color: #0065fc;
+  cursor: default;
+}
+
+a:visited a:link a:hover a:active a:link {
+  text-decoration: none;
+}

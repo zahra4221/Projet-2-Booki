@@ -1,0 +1,31 @@
+#footer_info {
+  background-color: #f2f2f2;
+  margin-right: 45px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 58px;
+}
+
+.column_footer {
+  padding-left: 70px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 45px;
+}
+.column_footer h3 {
+  font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.column_footer p {
+  padding-top: 12px;
+}
+
+#footer_title2 {
+  padding-right: 239px;
+}
+#footer_title1 {
+  padding-right: 347px;
+}

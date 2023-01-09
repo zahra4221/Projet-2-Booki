@@ -1,0 +1,29 @@
+#activity h2 {
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 60px;
+}
+
+.act_presentation {
+  width: 302px;
+  height: 444.51px;
+  border-radius: 20px;
+  margin-right: 50px;
+  background-color: white;
+  box-shadow: 1px 3px 5px 1px #e2e6e9;
+  margin-top: 18px;
+}
+
+.act_picture {
+  width: 302px;
+  height: 389px;
+  border-radius: 20px;
+}
+
+#activity_picture {
+  display: flex;
+}
+.activity_title {
+  padding-left: 20px;
+  padding-top: 20px;
+}
