@@ -1,0 +1,22 @@
+@media only screen and (min-width: 992px) {
+  #search_mobile {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 1024px) {
+  #filter {
+    width: 90%;
+  }
+
+  #hebergement {
+    display: flex;
+    width: 90%;
+  }
+  #Hebergement_populaire {
+    display: flex;
+    flex-direction: column;
+  }
+}

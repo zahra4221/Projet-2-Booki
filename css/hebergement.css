@@ -1,58 +1,81 @@
-/*Hebergement à Marseille */
 #Hebergement_populaire {
   display: flex;
-}
-#hebergement {
-  margin-top: 39px;
-  width: 65%;
-  height: 626px;
-  background-color: #f2f2f2;
-  border-radius: 20px;
+  margin-top: 40px;
 }
 
-.hebergement_row {
+/*Hebergement*/
+
+#hebergement {
+  background-color: #f2f2f2;
   display: flex;
-  flex-direction: row;
-  padding-top: 27px;
-  padding-left: 40px;
+  flex-direction: column;
+  height: auto;
+  border-radius: 20px;
+  padding: 40px;
+  width: 70%;
 }
+
 #hebergement h2 {
-  padding-top: 42px;
-  padding-left: 40px;
+  margin-bottom: 23px;
   font-size: 22px;
   font-weight: 700;
 }
 
-.hebergement1 {
-  width: 246px;
-  height: 200px;
+#hebergement_row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.hotel_box {
   background: #ffffff;
   border-radius: 20px;
-  margin-right: 31px;
+  box-shadow: 1px 2px #f2f2f2da;
+  width: 30%;
+  position: relative;
+  margin-bottom: 30px;
 }
+
+.hotel_box a {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 5px solid white;
+  border-radius: 20px;
+}
+
 .picture_hebergement {
-  width: 246px;
-  height: 124px;
-  border: 5px solid #ffffff;
+  width: 100%;
+  height: 120px;
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
+}
+
+.info_hotel {
+  font-size: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  margin-top: 132px;
 }
 
 .hotel_title {
   font-size: 16px;
   font-weight: 700;
-  padding-top: 4px;
-  padding-left: 16px;
+  object-fit: fill;
+  display: flex;
+  flex-wrap: wrap;
 }
+
 .hotel_price {
   font-size: 14px;
   font-weight: 400;
-  padding-left: 16px;
   padding-top: 9px;
 }
 
 .first_star {
-  padding-left: 16px;
   color: #0065fc;
 }
 .blue_star {
@@ -62,94 +85,89 @@
   color: #f2f2f2;
 }
 
-.hebergement2 {
-  width: 246px;
-  height: 200px;
-  background: #ffffff;
-  border-radius: 20px;
-  margin-right: 31px;
-}
-
-.hebergement3 {
-  width: 246px;
-  height: 200px;
-  background: #ffffff;
-  border-radius: 20px;
-  box-shadow: 1px 2px #f2f2f2da;
+#afficher_plus {
+  padding-top: 10px;
+  margin-left: 8px;
 }
 
 /*les plus populaires*/
 
 #populaire {
-  width: 29%;
-  height: 626px;
+  width: 30%;
   background-color: #f2f2f2;
   border-radius: 20px;
+  padding: 40px;
   margin-left: 40px;
-  margin-top: 39px;
 }
 
 #populaire h2 {
-  padding-top: 41px;
-  padding-left: 31px;
+  font-size: 22px;
+  font-weight: 700;
 }
-
 #pop_head {
   display: flex;
+  justify-content: space-between;
 }
 
 #populaire_column {
   display: flex;
   flex-direction: column;
+  align-content: space-between;
+  margin-top: 10px;
+  position: relative;
 }
 
-#pop1 {
-  width: 330px;
-  height: 144px;
-  background-color: white;
-  border-radius: 20px;
-  margin-left: 37px;
-  margin-top: 26px;
+.pop {
   display: flex;
+  position: relative;
+  background-color: white;
+  height: 144px;
+  border-radius: 20px;
+  margin-top: 26px;
+  box-shadow: 1px 2px #f2f2f2da;
+}
+
+.pop a {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 5px solid #ffffff;
+  border-radius: 20px;
 }
 
 .picture_populaire {
-  width: 137px;
-  height: 144px;
+  width: 37%;
   object-fit: cover;
-  border: 5px solid #ffffff;
+  height: 135px;
   border-radius: 20px 0px 0px 20px;
 }
-.title_price_star {
+
+.info_pop {
   display: flex;
   flex-direction: column;
+  margin-left: 40%;
+  padding-right: 30px;
 }
 
 .pop_title {
   font-weight: 700;
   font-size: 16px;
+  object-fit: fill;
   padding-top: 16px;
-  padding-left: 15px;
 }
+
 .pop_price {
   font-weight: 400;
   font-size: 14px;
-  padding-top: 7px;
-  padding-left: 15px;
-}
-.star_pop {
-  padding-top: 44px;
 }
 
-.pop2_3 {
-  width: 330px;
-  height: 144px;
-  background-color: white;
-  border-radius: 20px;
-  margin-left: 37px;
-  margin-top: 33px;
+.star_pop {
   display: flex;
+  position: absolute;
+  top: 125px;
 }
-.star_pop3 {
-  padding-top: 63px;
+
+.star_heb {
+  padding-top: 9px;
+  display: flex;
 }

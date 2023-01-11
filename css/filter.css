@@ -1,145 +1,39 @@
 #filter {
   display: flex;
-  flex-direction: row;
-  padding-top: 46px;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  margin-top: 46px;
 }
 
-#filter h3 {
-  font-weight: 700;
-  font-size: 18px;
-  padding-top: 13px;
-}
-#eco_filter {
+.filter_items {
+  display: flex;
+  align-items: center;
   background-color: white;
   border: 2px solid #d9d9d9;
   border-radius: 25px;
-  height: 50px;
-  width: 200px;
-  display: flex;
-  flex-direction: row;
-  padding-left: 30px;
-  padding-top: 13px;
+}
+.filter_items p {
   font-weight: 700;
   font-size: 17px;
-  margin-left: 50px;
+  margin: 10px;
 }
 
-#fam_filter {
-  background-color: white;
-  border: 2px solid #d9d9d9;
-  border-radius: 25px;
-  height: 50px;
-  width: 140px;
-  display: flex;
-  flex-direction: row;
-  padding-left: 32px;
-  font-weight: 700;
-  font-size: 17px;
-  padding-top: 13px;
-  margin-left: 50px;
-}
-
-#rom_filter {
-  background-color: white;
-  border: 2px solid #d9d9d9;
-  border-radius: 25px;
-  height: 50px;
-  width: 180px;
-  display: flex;
-  flex-direction: row;
-  padding-left: 52px;
-  font-weight: 700;
-  font-size: 17px;
-  padding-left: 12px;
-  padding-top: 13px;
-  margin-left: 50px;
-}
-#ani_filter {
-  background-color: white;
-  border: 2px solid #d9d9d9;
-  border-radius: 25px;
-  height: 50px;
-  width: 226px;
-  display: flex;
-  flex-direction: row;
-  padding-left: 52px;
-  font-weight: 700;
-  font-size: 17px;
-  padding-left: 12px;
-  padding-top: 13px;
-  margin-left: 50px;
-}
-
-.filter_icon1 {
-  color: blue;
-  width: 22px;
-  height: 16px;
-  position: relative;
-  top: 11px;
-}
-
-.filter_icon2 {
-  color: blue;
-  width: 15px;
-  height: 25px;
-  position: relative;
-  top: 8px;
-  right: 6px;
-}
-
-.filter_icon3 {
-  color: blue;
-  width: 22px;
-  height: 18px;
-  position: relative;
-  top: 9px;
-  left: 6px;
-}
-
-.filter_icon4 {
-  color: blue;
-  width: 22px;
-  height: 22px;
-  position: relative;
-  top: 9px;
-  left: 6px;
-}
-
-#eco_filter p {
-  padding-left: 10px;
-}
-#eco_filter:hover {
+.filter_items:hover {
   background-color: #deebff;
   cursor: default;
 }
-
-#fam_filter p {
-  padding-left: 10px;
-}
-#fam_filter:hover {
-  background-color: #deebff;
-  cursor: default;
-}
-
-#rom_filter p {
-  padding-left: 15px;
-}
-#rom_filter:hover {
-  background-color: #deebff;
-  cursor: default;
-}
-#ani_filter p {
-  padding-left: 15px;
-}
-
-#ani_filter:hover {
-  background-color: #deebff;
-  cursor: default;
+.filter_icon {
+  color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
 }
 
 /*Info bar*/
 #info_bar {
-  padding-top: 50px;
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
 }
