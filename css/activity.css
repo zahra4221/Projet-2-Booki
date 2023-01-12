@@ -35,6 +35,9 @@
   border-radius: 20px;
 }
 
+.act_presentation:hover {
+  transform: scale(1.02);
+}
 .act_presentation a {
   position: absolute;
   width: 100%;
@@ -44,6 +47,6 @@
 .activity_title {
   display: flex;
   align-items: flex-end;
-  padding-bottom: 5%;
-  padding-left: 10%;
+  padding-left: 8%;
+  padding-bottom: 4%;
 }

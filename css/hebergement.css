@@ -37,6 +37,9 @@
   position: relative;
   margin-bottom: 30px;
 }
+.hotel_box:hover {
+  transform: scale(1.02);
+}
 
 .hotel_box a {
   width: 100%;
@@ -127,6 +130,10 @@
   box-shadow: 1px 2px #f2f2f2da;
 }
 
+.pop:hover {
+  transform: scale(1.02);
+}
+
 .pop a {
   width: 100%;
   height: 100%;
@@ -170,4 +177,8 @@
 .star_heb {
   padding-top: 9px;
   display: flex;
+}
+
+.chart_pop {
+  color: #0065fc;
 }
