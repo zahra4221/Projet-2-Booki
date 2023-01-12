@@ -3,13 +3,14 @@
     display: none;
   }
 }
-@media only screen and (min-width: 640px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   #Hebergement_populaire {
     flex-direction: column;
   }
   #hebergement {
     width: 100%;
   }
+
   #populaire {
     width: 100%;
     margin-left: 0;
@@ -18,17 +19,53 @@
   #populaire_column {
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
     gap: 3%;
     align-content: inherit;
     margin-top: 10px;
     position: static;
   }
+  .hotel_box {
+    width: 32%;
+  }
+  .info_hotel {
+    padding-bottom: 0px;
+    margin-top: 130px;
+  }
+  .hotel_price {
+    padding-bottom: 9px;
+  }
+
   .pop {
     width: 100%;
   }
+  .act_presentation {
+    max-height: 267px;
+  }
+  .hotel_title {
+    padding-bottom: 9x;
+  }
+  .hotel_price {
+    padding-bottom: 9x;
+  }
+  #activity_picture {
+    height: 267px;
+  }
+  .activity_title {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 10px;
+    padding-bottom: 21px;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .act_picture {
+    height: 76%;
+  }
+  #footer_info {
+    margin: 70px 3% 0 3%;
+  }
 }
-@media only screen and (min-width: 320px) and (max-width: 640px) {
+@media only screen and (max-width: 768px) {
   /*main*/
   main {
     margin: 0;
@@ -73,8 +110,11 @@
   }
   /*search bar*/
   #search_bar {
-    margin-left: 3%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 22px;
   }
+
   #search_bar button {
     width: 49px;
   }
@@ -84,7 +124,7 @@
 
   /*filtres*/
   #filter {
-    gap: inherit;
+    gap: 0px;
     margin-left: 3%;
   }
 
@@ -98,9 +138,9 @@
     margin-right: 14px;
   }
   .filter_items p {
-    font-size: 14px;
+    font-size: 13px;
   }
-  #filter h3 {
+  #filter h2 {
     margin-bottom: 15px;
     margin-right: 300px;
   }
@@ -134,14 +174,20 @@
   #populaire {
     display: block;
     order: -1;
-    width: 105%;
+    width: 100%;
     background-color: #f2f2f2;
     border-radius: inherit;
-    margin: 0%;
+    margin: 0;
     padding-left: 20px;
+  }
+  .pop {
+    width: 105%;
   }
   #afficher_plus {
     display: none;
+  }
+  #search_bar button {
+    margin-left: -5%;
   }
 
   /*Activité*/
@@ -153,7 +199,7 @@
   }
   #activity h2 {
     margin-bottom: 0px;
-    margin-right: 300px;
+    margin-right: 200px;
   }
 
   #activity_picture {
@@ -184,7 +230,7 @@
     flex-direction: column;
     padding-left: 30px;
     margin-left: 0%;
-    margin-right: 0%;
+    margin-right: -2%;
     gap: 40px;
   }
 }

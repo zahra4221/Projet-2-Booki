@@ -6,6 +6,10 @@
   gap: 30px;
   margin-top: 46px;
 }
+#filter h2 {
+  font-weight: 700;
+  font-size: 18px;
+}
 
 .filter_items {
   display: flex;
@@ -25,7 +29,7 @@
   cursor: default;
 }
 .filter_icon {
-  color: blue;
+  color: #0065fc;
   display: flex;
   align-items: center;
   justify-content: center;
