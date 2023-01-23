@@ -145,7 +145,7 @@
     margin-right: 14px;
   }
   .filter_items p {
-    font-size: 13px;
+    font-size: 11px;
   }
   #filter h2 {
     margin-bottom: 15px;
@@ -233,7 +233,7 @@
     flex-direction: column;
     padding-left: 30px;
     margin-left: 0%;
-    margin-right: -2%;
+    margin-right: 0%;
     gap: 40px;
   }
 }
