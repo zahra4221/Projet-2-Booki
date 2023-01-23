@@ -4,9 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-.wraper {
-  max-width: 1400px;
+#wrapper {
   width: 100%;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
